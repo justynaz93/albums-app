@@ -1,1 +1,6 @@
-<p>albums-list works!</p>
+<div *ngFor="let album of albums">
+  <app-album-item [album]="album">
+
+  </app-album-item>
+
+</div>

@@ -10,6 +10,10 @@ import { AlbumItemComponent } from './component/album-item/album-item.component'
 import { PageNotFoundComponent } from './component/page-not-found/page-not-found.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
+import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
+
+
 
 @NgModule({
   declarations: [
@@ -24,7 +28,9 @@ import {MatIconModule} from '@angular/material/icon';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
