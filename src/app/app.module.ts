@@ -8,6 +8,8 @@ import { AboutComponent } from './component/about/about.component';
 import { AlbumsListComponent } from './component/albums-list/albums-list.component';
 import { AlbumItemComponent } from './component/album-item/album-item.component';
 import { PageNotFoundComponent } from './component/page-not-found/page-not-found.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { PageNotFoundComponent } from './component/page-not-found/page-not-found
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
