@@ -9,8 +9,7 @@ import {Album} from '../../model/album.model';
 export class AlbumItemComponent implements OnInit {
   @Input() album: Album;
 
-  constructor() {
-  }
+  constructor() {}
 
   ngOnInit(): void {
   }
